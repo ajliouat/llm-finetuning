@@ -1,0 +1,15 @@
+model_name: "gpt2"  # Pre-trained model to fine-tune
+data_path: "data/sample_dataset.csv"  # Path to training data
+output_dir: "output"  # Directory to save model checkpoints
+logging_dir: "logs"  # Directory for training logs
+batch_size: 8  # Batch size for training
+epochs: 3  # Number of training epochs
+fp16: True  # Use mixed precision training
+gradient_checkpointing: True  # Enable gradient checkpointing
+
+# LoRA Configuration
+lora_config:
+  r: 8  # Rank of the low-rank matrices
+  lora_alpha: 32  # Scaling factor for LoRA weights
+  target_modules: ["q_proj", "v_proj"]  # Target modules for LoRA adaptation
+  lora_dropout: 0.1  # Dropout rate for LoRA layers
