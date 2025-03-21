@@ -150,16 +150,3 @@ This project is licensed under the **Apache License**. See the [LICENSE](LICENSE
 
 For more details, visit the [GitHub repository](https://github.com/ajliouat/llm-finetuning).
 
-
----
-
-### Key Improvements:
-1. **Detailed Installation Instructions**: Added clear steps for setting up the project.
-2. **Usage Section**: Provided a command-line example and explained key arguments.
-3. **Configuration Details**: Included an example `config.yaml` file with explanations.
-4. **Project Structure**: Added a tree view for better organization.
-5. **Results Section**: Added a performance comparison table.
-6. **Contributing Guidelines**: Encouraged community contributions.
-7. **License and Acknowledgments**: Properly credited libraries and tools used.
-
-This `README.md` is comprehensive, well-structured, and provides all the necessary information for users to understand, set up, and contribute to your project.
