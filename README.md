@@ -146,7 +146,4 @@ This project is licensed under the **Apache License**. See the [LICENSE](LICENSE
 - [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) for 4-bit quantization.
 - [PEFT](https://github.com/huggingface/peft) for parameter-efficient fine-tuning tools.
 
----
-
-For more details, visit the [GitHub repository](https://github.com/ajliouat/llm-finetuning).
 
